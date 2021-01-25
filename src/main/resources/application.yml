@@ -1,0 +1,36 @@
+#Tomcat 端口配置
+spring:
+  profiles:
+    active: dev
+
+info:
+  app-name: JavaCool
+  autor: Gavin
+
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+---
+#开发环境配置
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+server:
+  port: 8088
+
+---
+#生产环境配置
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 8081
