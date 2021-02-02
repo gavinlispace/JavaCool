@@ -14,6 +14,7 @@ package net.cetron.controller;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import net.cetron.domain.repository.strategy.FormSubmitRequest;
+import net.cetron.service.EventService;
 import net.cetron.service.FormService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +25,9 @@ public class QuickTestController {
 
     @Autowired
     private FormService formService;
+
+    @Autowired
+    private EventService eventService;
 
     @GetMapping("/")
     @ApiOperation(value = "入口测试")
@@ -38,5 +42,12 @@ public class QuickTestController {
         formSubmitRequest.setUserId(1L);
         formSubmitRequest.setSubmitType(submitType);
         return formService.submitForm(formSubmitRequest);
+    }
+
+
+    @GetMapping("/event")
+    @ApiOperation(value = "发布事件测试")
+    public void event(String message){
+        eventService.publish(message);
     }
 }
