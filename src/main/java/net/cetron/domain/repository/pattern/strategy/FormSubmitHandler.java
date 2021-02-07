@@ -9,7 +9,7 @@
  * @author: Gavin Li
  * @create: 2021-01-19 22:10
  */
-package net.cetron.domain.repository.strategy;
+package net.cetron.domain.repository.pattern.strategy;
 
 import java.io.Serializable;
 

@@ -12,9 +12,9 @@
 package net.cetron.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import net.cetron.domain.repository.strategy.FormSubmitRequest;
-import net.cetron.domain.repository.strategy.FormSubmitHandler;
-import net.cetron.domain.repository.strategy.FormSubmitHandlerFactory;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitRequest;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitHandler;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitHandlerFactory;
 import net.cetron.service.FormService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

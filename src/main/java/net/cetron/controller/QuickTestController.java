@@ -13,7 +13,7 @@ package net.cetron.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import net.cetron.domain.repository.strategy.FormSubmitRequest;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitRequest;
 import net.cetron.service.EventService;
 import net.cetron.service.FormService;
 import org.springframework.beans.factory.annotation.Autowired;

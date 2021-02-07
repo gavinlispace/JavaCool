@@ -9,11 +9,11 @@
  * @author: Gavin Li
  * @create: 2021-01-19 22:17
  */
-package net.cetron.domain.repository.strategy.impl;
+package net.cetron.domain.repository.pattern.strategy.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import net.cetron.domain.repository.strategy.FormSubmitRequest;
-import net.cetron.domain.repository.strategy.FormSubmitHandler;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitRequest;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitHandler;
 import org.springframework.stereotype.Component;
 
 @Slf4j

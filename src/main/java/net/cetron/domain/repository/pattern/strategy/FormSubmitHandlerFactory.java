@@ -9,7 +9,7 @@
  * @author: Gavin Li
  * @create: 2021-01-19 22:23
  */
-package net.cetron.domain.repository.strategy;
+package net.cetron.domain.repository.pattern.strategy;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;

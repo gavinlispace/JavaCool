@@ -1,4 +1,4 @@
-package net.cetron.domain.repository.strategy;
+package net.cetron.domain.repository.pattern.strategy;
 
 import lombok.Data;
 import lombok.Getter;

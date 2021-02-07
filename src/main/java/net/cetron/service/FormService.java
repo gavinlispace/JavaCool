@@ -11,7 +11,7 @@
  */
 package net.cetron.service;
 
-import net.cetron.domain.repository.strategy.FormSubmitRequest;
+import net.cetron.domain.repository.pattern.strategy.FormSubmitRequest;
 import org.springframework.stereotype.Service;
 
 @Service
